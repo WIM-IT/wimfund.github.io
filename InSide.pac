@@ -6,7 +6,7 @@
  */
 function FindProxyForURL(url, host) {
     // REPLACE PROXY WITH YOUR OWN'S
-    var PROXY = "PROXY 192.168.101.254:8580;PROXY 192.168.101.2:8580;DIRECT";
+    var PROXY = "PROXY 192.168.101.2:8580;DIRECT";
     var BLACKHOLE = "127.0.0.2";
     var DEFAULT = "DIRECT";
 
