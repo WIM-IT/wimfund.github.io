@@ -27,13 +27,6 @@ body, html {
     height: 200px;
     background-image: url("W3.CSS Template_files/newsbar4.jpg");
 }
-
-.bgimg-3 {
-    background-position: center;
-    background-size: cover;
-    height: 200px;
-    background-image: url("W3.CSS Template_files/python.jpg");
-}
 	
 .bgimg-4 {
     background-position: center;
@@ -42,11 +35,25 @@ body, html {
     background-image: url("W3.CSS Template_files/about1.jpg");
 }
 	
+.bgimg-3 {
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    background-image: url("W3.CSS Template_files/python.jpg");
+}
+	
 .bgimg-5 {
     background-position: center;
     background-size: cover;
     height: 200px;
-    background-image: url("W3.CSS Template_files/business.jpg");
+    background-image: url("W3.CSS Template_files/exchange.jpg");
+}
+
+.bgimg-6 {
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    background-image: url("W3.CSS Template_files/analyst.jpg");
 }
 	
 .w3-bar .w3-button {
@@ -65,34 +72,29 @@ body, html {
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="首页按钮">
-    <a class="w3-left w3-wide logoname">
-    <strong class="h1">智德投资管理<br>
-    </strong> WIM Asset Management</a>
+	<a><img src="W3.CSS Template_files/wimlogo.jpg" alt="" width="200" height="40" class="wimlogo" align="left"/>
+	</a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
-      <a href="#主页" class="w3-bar-item w3-button">主页</a>  
-      <a href="#关于我们" class="w3-bar-item w3-button">关于我们</a>      
-	  <a href="#证券投资" class="w3-bar-item w3-button">证券投资</a>
-      <a href="#股权投资" class="w3-bar-item w3-button">股权投资</a>
-	  <a href="#新闻动态" class="w3-bar-item w3-button">新闻动态</a>
-      <a href="#人才招聘" class="w3-bar-item w3-button">人才招聘 </a>
-      <a href="#联系我们" class="w3-bar-item w3-button">联系我们</a>
+      <a href="#主页" class=" w3-button">主页</a>  
+      <a href="#关于我们" class=" w3-button">关于我们</a>
+	  <a href="#新闻动态" class=" w3-button">新闻动态</a>
+      <a href="#人才招聘" class=" w3-button">人才招聘 </a>
+      <a href="#联系我们" class=" w3-button">联系我们</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-      <i class="fa fa-bars"></i>
+      <i >>>></i>
     </a>
   </div>
 </div>
 
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">×</a>
       <a href="#主页" class="w3-bar-item w3-button">主页</a>  
-      <a href="#关于我们" class="w3-bar-item w3-button">关于我们</a>      
-      <a href="#证券投资" class="w3-bar-item w3-button">证券投资</a>
-      <a href="#股权投资" class="w3-bar-item w3-button">股权投资</a>
+      <a href="#关于我们" class="w3-bar-item w3-button">关于我们</a> 
 	  <a href="#新闻动态" class="w3-bar-item w3-button">新闻动态</a>
       <a href="#人才招聘" class="w3-bar-item w3-button">人才招聘 </a>
       <a href="#证券投资" class="w3-bar-item w3-button">联系我们</a>
@@ -101,76 +103,37 @@ body, html {
 <!-- Header with full-height image -->
 	
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="主页">
-  <div class="w3-display-left w3-text-white h99" style="padding:48px">
-    <p> <span class="w3-jumbo w3-hide-small h99">&nbsp;</span><br>
-      <span class="w3-xxlarge w3-hide-large w3-hide-medium"> </span><br>
-      <span class="w3-large">公司专注于资产管理业务，</span></p>
-    <p><span class="w3-large">并致力于成为一家绝对收益和超额回报长期并重的投资管理公司。</span> </p>
-<p><a href="#关于我们" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">关于我们</a></p>
+  <div class="w3-display-left w3-text-white slogan" style="padding:48px">
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium"></span><br>
+	<span class=" w3-hide-small">小盈靠智&nbsp; 大赢靠德&nbsp;</span><br>
+    <span class="w3-large">致力成为一家绝对收益和超额回报长期并重的投资管理公司&nbsp;</span>
+    <p><a href="#关于我们" class="w3-button w3-white w3-padding-large w3-large  w3-opacity w3-hover-opacity-off">关于我们&nbsp;</a></p>
   </div> 
-  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-  </div>
 </header>
 
 <!-- About Section -->
 	
-<div class="w3-container head-box" style="padding:120px 16px" id="关于我们">
-  <p>&nbsp;</p>
+<div class="w3-container head-box" style="padding:100px 16px" id="关于我们">
   <div>
   <img src="W3.CSS Template_files/icon1-blue.png" alt="" width="100" height="90" class="about-icon" align="left"/> 
-  <p class="h88">&nbsp; &nbsp; &nbsp; &nbsp;智德投资管理有限公司（简称“智德”）成立于2008年4月，注册资本金1001万元。 公司拥有深厚专业知识背景及丰富经验的投资团队，该团队主要由来自基金及证券投资机构的资深专业人士组成，对资本市场及上市公司有着长期、深刻的理解。拥有良好的客户群体并在不断扩展之中。公司的主旨是为有限的高端客户提供优质的投资服务，使客户获得稳定、可持续的盈利机会。</p>
-  <p class="h88">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+  <p class="h88"> &nbsp; &nbsp; <strong> &nbsp; &nbsp;上海智德投资管理有限公司</strong>成立于2008年4月，是国内早期诞生的私募投资基金管理公司之一。公司专注于境内外股票市场证券投资业务，致力于成为一家绝对收益和超额回报长期并重的投资管理机构。 </p>
+  <p class="h88"> &nbsp; &nbsp; &nbsp; &nbsp;公司团队由具有丰富从业经验的基金及证券投资机构专业人士组成，对资本市场及上市公司有着长期、深刻的理解。团队成员稳定，配合默契。</p>
+  <p class="h88">&nbsp; &nbsp; &nbsp; &nbsp;公司旨在为客户提供优质的投资服务，帮助客户获得稳定、可持续的盈利机会。服务的客户涵盖大型国有银行、头部股份制银行、头部信托机构、高净值人群。历史回报优异，获得客户充分信赖，资产管理规模持续稳健增长。 </p>
+<p class="h88">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
   <img src="W3.CSS Template_files/icon2-blue.png" alt="" width="100" height="90" class="about-icon" align="left"/> 
-  <p class="h88">&nbsp; &nbsp; &nbsp; &nbsp; 智德简理投资管理有限公司（简称“智德简理”）成立于2015年7月，注册资本金1000万元。公司由智德投资管理有限公司和多为资深业内人士共同发起设立，专注于投资未上市且具有良好发展潜力的公司股权。公司合伙人由创业投资和资本市场自身专业人士组成，均由在国内外企业及大型金融机构担任高管的经理，平均从业时间在15年以上。 </p>
+  <p class="h88"> &nbsp; &nbsp; &nbsp; &nbsp;<strong>上海智德简理投资管理有限公司</strong>成立于2015年7月，由上海智德投资管理有限公司和资深股权投资人士共同发起设立，专注于投资具有良好发展潜力的一级市场公司股权。</p>
+  <p class="h88">&nbsp; &nbsp; &nbsp; &nbsp;公司团队秉承尽职勤勉的工作态度、保持审慎进取的投资风格，从新材料、新技术、新模式等实体经济领域发现并培育新的投资机会，与清华大学、浙江大学、中科院理化所、中科院上海微系统所、中科院动物所等科研机构开展深度合作。投资案例包括肯耐珂萨、PereDoc、优谱德科技、长风药业、中译语通、中科先行、中科润德等。</p>
   </div>
 </div>
 
-<!-- 证券投资 Section -->
-<div class="w3-container w3-dark-grey" style="padding:120px 16px" id="证券投资">
-  <div class="w3-row-padding">
-	<div class="bgimg-4 w3-col m6" style="height: 330px;">
-		<p></p>
-    </div>
-    <div class="w3-col m6">
-      <h3 class="sectionhead">&nbsp;</h3>
-<h3 class="sectionhead">证券投资</h3>
-      <p class="h77">&nbsp; &nbsp; &nbsp; &nbsp; 人才永远是投资行业最为重要的生产力。智德的投资管理团队不仅包括来自证券、基金业的投资精英，还吸收了不同行业及多领域的专业人士。多层次的人才结构，不但构成对投资业绩的强有力保障，更为企业的长期竞争力打下坚实的基础。智德核心团队经验丰富，平均从业年限10年以上。团队成员具备一定海外留学背景，投资视野关注全球资本市场。对于各个证券品种都有相当的实战经验，不局限于股票投资，对于全球宏观、大宗商品、债券以及其他衍生品都有长期的投资经验。团队成员稳定，合作时间久，配合默契。</p>
-    </div>
-  </div>
-</div>
 
-	
-<!-- 股权投资 Section -->
-<div class="w3-container w3-light-grey" style="padding:120px 1px" id="股权投资">
-  <div class="w3-row-padding">
-	<div class="bgimg-5 w3-col m6" style="height: 330px;">
-		<p></p>
-    </div>
-    <div class="w3-col m6">
-      <h3>&nbsp;</h3>
-      <h3 class="sectionhead2">股权投资</h3>
-<p class="h77">&nbsp; &nbsp; &nbsp; &nbsp;智德简理关注实体经济的发展，秉承尽职勤勉的工作态度和审慎进取的投资风格，发现并培育成长性与治理结构较好的企业股权投资项目，严格遵循基金合伙协议的约定，合理安排资金比例，力争在风险可控的条件下为投资者创造合理的收益。目前我们管理两支基金：上海简理投资合伙企业（有限合伙）、长兴兴中投资合伙企业（有限合伙）。投资案例包括肯耐珂萨、PereDoc、优诺德科技、长风药业中译语通、中科先行和中科润德等。</p>
-    </div>
-  </div>
-</div>	
 
 <!-- 新闻动态 Head -->
-<div class="w3-container w3-row w3-center bgimg-2" id="新闻动态">
+<div class="w3-container w3-row w3-center bgimg-2" id="新闻动态" >
 </div>
 <!-- 新闻动态 Section -->
 <div class="w3-container">
   <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-		  
-<div class="w3-container">
-          <h3 class="bloghead">“2018中国最佳私募……</h3>
-          <p class="w3-opacity blogsub">公司新闻</p>
-          <p class="blogcontent">新浪财经讯8月27日消息，上海交通大学中国私募证券投资研究中心近日发布“2018中国最佳私募证券投资基金经理TOP50”……</p>
-		  <a href="page1.html" class="w3-button">&gt;&gt;&gt;&nbsp;</a>  
-        </div>
-      </div>
-    </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
 		  	 
@@ -235,35 +198,43 @@ body, html {
 
 <div class="w3-container w3-center w3-dark-grey hire" style="padding:90px 16px" id="人才招聘">
   <div class="w3-row-padding" style="margin-top:20px">
+	<p class="hireslogan">我们相信，人才永远是投资行业最为重要的生产力。<br> 智德投资期待与你同行！</p>
     <div class="w3-third w3-section">
       <ul class="w3-ul w3-white w3-hover-shadow">
-        <div class="w3-xlarge w3-padding-16 hirename">Python后端工程师</div>
+        <div onclick="location.href='talentpython.html'" class="w3-xlarge w3-padding-16 hirename">Python后端工程师</div>
 		<div class="bgimg-3"></div>
-        <div class="w3-light-grey w3-padding-16">
-          <h2 class="salary">RMB 1.5-2K/月</h2>
-          <p class="w3-opacity">Python框架 &amp; 数据库
-          </p>
-          <a href="talentpython.html" class="w3-button hirebutton">&gt;&gt;&gt;&nbsp;</a>
-        </div>
       </ul>
     </div>
-
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <div onclick="location.href='talenttrade.html'" class="w3-xlarge w3-padding-16 hirename">交易员</div>
+		<div class="bgimg-5"></div>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <div onclick="location.href='talentanalyst.html'" class="w3-xlarge w3-padding-16 hirename">证券分析师</div>
+		<div class="bgimg-6"></div>
+      </ul>
+    </div>	
   </div>
 </div>
 
 <!-- Contact Section -->
-<div class="w3-container" style="padding:60px 16px" id="联系我们">
+<div class="w3-container" style="padding:100px 16px" id="联系我们">
   <div style="margin-top:48px">
-    <img src="./W3.CSS Template_files/contact-icon.png" class="w3-image wechat">
-    <p class="contact">上海市浦东新区国际航运金融大厦25F <br> (+86)-021-51086086 <br> service@wimfund.com</p>
-    <br>
-    <!-- Image of location/map -->
+	  <img src="W3.CSS Template_files/contact-icon.png" alt="" width="110" height="110" class="about-icon" align="left"/> 
+    <p class="h88"> &nbsp; &nbsp; &nbsp;根据《私募投资基金募集行为管理办法》的规定，私募基金管理人仅向特定合格投资者，宣传推介私募投资基金产品。如您个人或贵机构有意进行私募投资基金投资，请确认自身符合法律法规所规定的投资者标准：</p>
+      <p class="h88">&nbsp; &nbsp; &nbsp; 1. 本人/本机构承诺具备相应风险识别能力和风险承担能力，投资于单只私募基金的金额不低于100万元；<br>
+  &nbsp; &nbsp; &nbsp; 2. 本人承诺个人金融类资产不低于300万元，或最近3年个人年均收入不低于50万元；本机构承诺净资产不低于1000万元；</p>
+      <!-- Image of location/map -->
   </div>
 </div>
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16">
-  <p>© Copyright 2014 智德投资管理有限公司 备案号 沪ICP备17049386号</p>
+  <p class="contact">上海市浦东新区浦东大道720号25M<br> 021-51086086 <br> service@wimfund.com</p>
+  <p class="copyright">© Copyright 2014 智德投资管理有限公司 备案号 沪ICP备17049386号</p>
 </footer>
  
 <script>

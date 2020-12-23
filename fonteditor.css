@@ -9,17 +9,18 @@
 }
 
 .h99 {
-	margin-top: 50px;
+    margin-top: 10px;
+    font-size: xx-large;
 }
 
 .h88 {
     color: #000000;
     text-align: left;
     font-size: 14px;
-    margin-left: 250px;
-    margin-right: 100px;
+    margin-left: 30%;
     letter-spacing: 0.5px;
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-right: 20%;
 }
 
 
@@ -43,3 +44,7 @@
   display: table;
 }
 header1 {height:80px;}
+
+.hirename {
+    cursor: pointer;
+}
