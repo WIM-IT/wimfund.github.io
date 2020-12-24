@@ -84,8 +84,8 @@ body, html {
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-      <i >>>></i>
+    <a href="javascript:void(0)" class="w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i >菜单 >>></i>
     </a>
   </div>
 </div>
@@ -94,10 +94,10 @@ body, html {
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">×</a>
       <a href="#主页" class="w3-bar-item w3-button">主页</a>  
-      <a href="#关于我们" class="w3-bar-item w3-button">关于我们</a> 
+      <a href="#关于我们small" class="w3-bar-item w3-button">关于我们</a> 
 	  <a href="#新闻动态" class="w3-bar-item w3-button">新闻动态</a>
       <a href="#人才招聘" class="w3-bar-item w3-button">人才招聘 </a>
-      <a href="#证券投资" class="w3-bar-item w3-button">联系我们</a>
+      <a href="#联系我们small" class="w3-bar-item w3-button">联系我们</a>
 </nav>
 
 <!-- Header with full-height image -->
@@ -105,15 +105,15 @@ body, html {
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="主页">
   <div class="w3-display-left w3-text-white slogan" style="padding:48px">
     <span class="w3-xxlarge w3-hide-large w3-hide-medium"></span><br>
-	<span class=" w3-hide-small">小盈靠智&nbsp; 大赢靠德&nbsp;</span><br>
+	<span>小盈靠智&nbsp; 大赢靠德&nbsp;</span><br>
     <span class="w3-large">致力成为一家绝对收益和超额回报长期并重的投资管理公司&nbsp;</span>
     <p><a href="#关于我们" class="w3-button w3-white w3-padding-large w3-large  w3-opacity w3-hover-opacity-off">关于我们&nbsp;</a></p>
   </div> 
 </header>
 
-<!-- About Section -->
+<!-- About Section large-->
 	
-<div class="w3-container head-box"  id="关于我们">
+<div class="w3-container head-box w3-hide-small"  id="关于我们">
   <div class="secpadding">
   <img src="W3.CSS Template_files/icon1-blue.png" alt="" width="100" height="90" class="about-icon" align="left"/> 
   <p class="h88"> &nbsp; &nbsp; <strong> &nbsp; &nbsp;上海智德投资管理有限公司</strong>成立于2008年4月，是国内早期诞生的私募投资基金管理公司之一。公司专注于境内外股票市场证券投资业务，致力于成为一家绝对收益和超额回报长期并重的投资管理机构。 </p>
@@ -125,6 +125,18 @@ body, html {
   <p class="h88">&nbsp; &nbsp; &nbsp; &nbsp;公司团队秉承尽职勤勉的工作态度、保持审慎进取的投资风格，从新材料、新技术、新模式等实体经济领域发现并培育新的投资机会，与清华大学、浙江大学、中科院理化所、中科院上海微系统所、中科院动物所等科研机构开展深度合作。投资案例包括肯耐珂萨、PereDoc、优谱德科技、长风药业、中译语通、中科先行、中科润德等。</p>
   </div>
 </div>
+<!-- About Section small-->
+	
+<div class="w3-container head-box w3-hide-large w3-hide-medium"  id="关于我们small">
+  <div class="secpadding">
+  <p class="h44"> &nbsp; &nbsp; <strong> &nbsp; &nbsp;上海智德投资管理有限公司</strong>成立于2008年4月，是国内早期诞生的私募投资基金管理公司之一。公司专注于境内外股票市场证券投资业务，致力于成为一家绝对收益和超额回报长期并重的投资管理机构。 </p>
+  <p class="h44"> &nbsp; &nbsp; &nbsp; &nbsp;公司团队由具有丰富从业经验的基金及证券投资机构专业人士组成，对资本市场及上市公司有着长期、深刻的理解。团队成员稳定，配合默契。</p>
+  <p class="h44">&nbsp; &nbsp; &nbsp; &nbsp;公司旨在为客户提供优质的投资服务，帮助客户获得稳定、可持续的盈利机会。服务的客户涵盖大型国有银行、头部股份制银行、头部信托机构、高净值人群。历史回报优异，获得客户充分信赖，资产管理规模持续稳健增长。 </p>
+<p class="h44">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+  <p class="h44"> &nbsp; &nbsp; &nbsp; &nbsp;<strong>上海智德简理投资管理有限公司</strong>成立于2015年7月，由上海智德投资管理有限公司和资深股权投资人士共同发起设立，专注于投资具有良好发展潜力的一级市场公司股权。</p>
+  <p class="h44">&nbsp; &nbsp; &nbsp; &nbsp;公司团队秉承尽职勤勉的工作态度、保持审慎进取的投资风格，从新材料、新技术、新模式等实体经济领域发现并培育新的投资机会，与清华大学、浙江大学、中科院理化所、中科院上海微系统所、中科院动物所等科研机构开展深度合作。投资案例包括肯耐珂萨、PereDoc、优谱德科技、长风药业、中译语通、中科先行、中科润德等。</p>
+  </div>
+</div>	
 	
 <!-- 新闻动态 Head -->
 <div class="bgimg-2" id="新闻动态">
@@ -218,8 +230,8 @@ body, html {
   </div>
 </div>
 
-<!-- Contact Section -->
-<div class="w3-container" style="padding:100px 16px" id="联系我们">
+<!-- Contact Section large-->
+<div class="w3-container w3-hide-small" style="padding:100px 16px" id="联系我们">
   <div style="margin-top:48px">
 	  <img src="W3.CSS Template_files/contact-icon.png" alt="" width="110" height="110" class="about-icon" align="left"/> 
     <p class="h88"> &nbsp; &nbsp; &nbsp;根据《私募投资基金募集行为管理办法》的规定，私募基金管理人仅向特定合格投资者，宣传推介私募投资基金产品。如您个人或贵机构有意进行私募投资基金投资，请确认自身符合法律法规所规定的投资者标准：</p>
@@ -228,7 +240,16 @@ body, html {
       <!-- Image of location/map -->
   </div>
 </div>
-
+	
+<!-- Contact Section small-->
+<div class="w3-container w3-hide-large w3-hide-medium" style="padding:100px 16px" id="联系我们small">
+  <div style="margin-top:48px">
+    <p class="h44"> &nbsp; &nbsp; &nbsp;根据《私募投资基金募集行为管理办法》的规定，私募基金管理人仅向特定合格投资者，宣传推介私募投资基金产品。如您个人或贵机构有意进行私募投资基金投资，请确认自身符合法律法规所规定的投资者标准：</p>
+    <p class="h44">&nbsp; &nbsp; &nbsp; 1. 本人/本机构承诺具备相应风险识别能力和风险承担能力，投资于单只私募基金的金额不低于100万元；<br>&nbsp; &nbsp; &nbsp; 2. 本人承诺个人金融类资产不低于300万元，或最近3年个人年均收入不低于50万元；本机构承诺净资产不低于1000万元；</p>
+      <!-- Image of location/map -->
+  </div>
+</div>
+	
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16">
   <p class="contact">上海市浦东新区浦东大道720号25M<br> 021-51086086 <br> service@wimfund.com</p>
