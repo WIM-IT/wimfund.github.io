@@ -424,8 +424,19 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .h101 {
     font-size: 25px;
 }
-.smallmenu {
-    font-style: normal;
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 12px;
+.hireslogansmall {
+    font-size: 14px;
+}
+.imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pageimgcenter_img{
+  max-width:60%;
+  height:auto;
+  max-height:60%;
+  min-width:45%;
+  min-height:45%;
 }
