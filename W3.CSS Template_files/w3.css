@@ -449,3 +449,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     font-size: larger;
 }
 
+.sizechange {
+    padding-left: 15%;
+    padding-right: 15%;
+}
