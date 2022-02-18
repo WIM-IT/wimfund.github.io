@@ -1,5 +1,8 @@
 ﻿/* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
-html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{
+    box-sizing: border-box;
+    color: #F0E8E8;
+}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
@@ -453,3 +456,4 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     padding-left: 15%;
     padding-right: 15%;
 }
+

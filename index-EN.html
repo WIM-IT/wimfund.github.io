@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>WIM Asset Management</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./W3.CSS Template_files/w3.css">
+<link rel="stylesheet" href="./W3.CSS Template_files/css">
+<link rel="stylesheet" href="./W3.CSS Template_files/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("W3.CSS Template_files/main.jpg");
+    min-height: 100%;
+}
+	
+.bgimg-2 {
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    background-image: url("W3.CSS Template_files/newsbar4.jpg");
+}
+	
+.bgimg-4 {
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    background-image: url("W3.CSS Template_files/about1.jpg");
+}
+	
+.bgimg-3 {
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    background-image: url("W3.CSS Template_files/python.jpg");
+}
+	
+.bgimg-5 {
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    background-image: url("W3.CSS Template_files/exchange.jpg");
+}
+
+.bgimg-6 {
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    background-image: url("W3.CSS Template_files/analyst.jpg");
+}
+	
+.w3-bar .w3-button {
+  padding: 16px;
+}
+	
+	
+.imgabout1 {
+	height: 60px;
+	width: 70px;
+}
+</style>
+<link href="fonteditor.css" rel="stylesheet" type="text/css">
+</head><body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="首页按钮">
+	<a><img src="W3.CSS Template_files/wimlogo.jpg" alt="" width="200" height="40" class="wimlogo" align="left"/>
+	</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#Home" class=" w3-button">Home</a>  
+      <a href="#About Us" class=" w3-button">About Us</a>
+      <a href="#Contact" class=" w3-button">Contact</a>
+      <a onclick="location.href='index.html'" class="w3-button">中文</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i >>>></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">×</a>
+      <a href="#Home" class="w3-bar-item w3-button">Home</a>  
+      <a href="#About Ussmall" class="w3-bar-item w3-button">About Us</a> 
+      <a href="#Contact" class="w3-bar-item w3-button">Contact</a>
+      <a onclick="location.href='index.html'" class="w3-bar-item w3-button">中文</a>
+</nav>
+
+<!-- Header with full-height image -->
+	
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="Home">
+  <div class="w3-display-left w3-text-white slogan w3-hide-small" style="padding:48px">
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium"></span><br>
+    <span class="h101">Long short Expert to Sustain and Grow Family Wealth&nbsp;</span>
+    <p><a href="#About Us" class="w3-button w3-white w3-padding-large w3-large  w3-opacity w3-hover-opacity-off">About Us&nbsp;</a></p>
+  </div> 
+ <!-- displa slogan small -->
+  <div class="w3-display-left w3-text-white slogan w3-hide-medium w3-hide-large" style="padding:48px">
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium"></span><br>
+    <p class="h101">Long short Expert to Sustain and Grow Family Wealth&nbsp;</p>
+    <p><a href="#About Ussmall" class="w3-button w3-white w3-medium w3-opacity w3-hover-opacity-off">About Us</a></p>
+  </div> 
+</header>
+
+<!-- About Section large-->
+	
+<div class="w3-container head-box w3-hide-small"  id="About Us">
+  <div class="secpadding">
+  <img src="W3.CSS Template_files/icon1-blue.png" alt="" width="100" height="90" class="about-icon" align="left"/> 
+  <p class="h88"><strong>WIM Asset Management</strong> was founded in April, 2008. The team, specialised in global equity long/short, is formed by a stable group of experienced professionals with proven strategy to capture alpha. The ultimate goal is to sustain and grow wealth for our clients. </p>
+
+  <p class="h88"><strong>WIM Global Fund</strong> was launched in Jan, 2010. It has a Greater China-centric equity long/short strategy adopting a top-down and bottom-up approach in constructing the portfolio while following SRI and ESG practice. The fund aims 15%+ annualized return by seeking alpha generation and managing beta risks through in-depth research and dynamic global equity allacation.</p>
+  </div>
+</div>
+<!-- About Section small-->
+	
+<div class="w3-container head-box w3-hide-large w3-hide-medium"  id="About Ussmall">
+  <div class="secpadding">
+  <p class="h44"><strong>WIM Asset Management</strong> was founded in April, 2008. The team, specialised in global equity long/short, is formed by a stable group of experienced professionals with proven strategy to capture alpha. The ultimate goal is to sustain and grow wealth for our clients. </p>
+
+  <p class="h44"><strong>WIM Global Fund</strong> was launched in Jan, 2010. It has a Greater China-centric equity long/short strategy adopting a top-down and bottom-up approach in constructing the portfolio while following SRI and ESG practice. The fund aims 15%+ annualized return by seeking alpha generation and managing beta risks through in-depth research and dynamic global equity allacation.</p>
+  </div>
+</div>	
+
+
+
+	
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16" id="Contact">
+  <p class="contact">
+  ir@wimfund.com</p>
+  <p class="copyright">© WIM Asset Management. All rights reserved.</p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+
+</body></html>
